@@ -7,20 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C18878928E36C6900DE784D /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C18878828E36C6900DE784D /* CurrencyTableViewCell.swift */; };
+		0C45483128DF783800FB43C7 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C45483028DF783800FB43C7 /* Currency.swift */; };
+		0C53667828CE9F2E00135421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C53667728CE9F2E00135421 /* Main.storyboard */; };
+		0C53667A28CEA04F00135421 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C53667928CEA04F00135421 /* CalculatorViewController.swift */; };
+		0C53667C28CEA3FE00135421 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C53667B28CEA3FE00135421 /* Calculator.swift */; };
+		0C5FF18328E26F8000331A60 /* CurrencyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5FF18228E26F8000331A60 /* CurrencyTableViewController.swift */; };
 		0C73140128CCC5660037A04D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C73140028CCC5660037A04D /* AppDelegate.swift */; };
 		0C73140328CCC5660037A04D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C73140228CCC5660037A04D /* SceneDelegate.swift */; };
-		0C73140528CCC5660037A04D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C73140428CCC5660037A04D /* ViewController.swift */; };
-		0C73140828CCC5660037A04D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C73140628CCC5660037A04D /* Main.storyboard */; };
 		0C73140A28CCC5690037A04D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C73140928CCC5690037A04D /* Assets.xcassets */; };
 		0C73140D28CCC5690037A04D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C73140B28CCC5690037A04D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C18878828E36C6900DE784D /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		0C45483028DF783800FB43C7 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		0C53667728CE9F2E00135421 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0C53667928CEA04F00135421 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		0C53667B28CEA3FE00135421 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		0C5FF18228E26F8000331A60 /* CurrencyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewController.swift; sourceTree = "<group>"; };
 		0C7313FD28CCC5660037A04D /* DollarEuroConvert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DollarEuroConvert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C73140028CCC5660037A04D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C73140228CCC5660037A04D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0C73140428CCC5660037A04D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0C73140728CCC5660037A04D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C73140928CCC5690037A04D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C73140C28CCC5690037A04D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C73140E28CCC5690037A04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,13 +64,17 @@
 		0C7313FF28CCC5660037A04D /* DollarEuroConvert */ = {
 			isa = PBXGroup;
 			children = (
+				0C18878828E36C6900DE784D /* CurrencyTableViewCell.swift */,
+				0C53667B28CEA3FE00135421 /* Calculator.swift */,
 				0C73140028CCC5660037A04D /* AppDelegate.swift */,
 				0C73140228CCC5660037A04D /* SceneDelegate.swift */,
-				0C73140428CCC5660037A04D /* ViewController.swift */,
-				0C73140628CCC5660037A04D /* Main.storyboard */,
 				0C73140928CCC5690037A04D /* Assets.xcassets */,
 				0C73140B28CCC5690037A04D /* LaunchScreen.storyboard */,
 				0C73140E28CCC5690037A04D /* Info.plist */,
+				0C53667728CE9F2E00135421 /* Main.storyboard */,
+				0C53667928CEA04F00135421 /* CalculatorViewController.swift */,
+				0C45483028DF783800FB43C7 /* Currency.swift */,
+				0C5FF18228E26F8000331A60 /* CurrencyTableViewController.swift */,
 			);
 			path = DollarEuroConvert;
 			sourceTree = "<group>";
@@ -125,9 +137,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C53667828CE9F2E00135421 /* Main.storyboard in Resources */,
 				0C73140D28CCC5690037A04D /* LaunchScreen.storyboard in Resources */,
 				0C73140A28CCC5690037A04D /* Assets.xcassets in Resources */,
-				0C73140828CCC5660037A04D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C73140528CCC5660037A04D /* ViewController.swift in Sources */,
+				0C18878928E36C6900DE784D /* CurrencyTableViewCell.swift in Sources */,
 				0C73140128CCC5660037A04D /* AppDelegate.swift in Sources */,
+				0C45483128DF783800FB43C7 /* Currency.swift in Sources */,
+				0C5FF18328E26F8000331A60 /* CurrencyTableViewController.swift in Sources */,
+				0C53667C28CEA3FE00135421 /* Calculator.swift in Sources */,
+				0C53667A28CEA04F00135421 /* CalculatorViewController.swift in Sources */,
 				0C73140328CCC5660037A04D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +163,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0C73140628CCC5660037A04D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C73140728CCC5660037A04D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0C73140B28CCC5690037A04D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MVDD5ZBDZD;
@@ -313,6 +322,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MVDD5ZBDZD;
